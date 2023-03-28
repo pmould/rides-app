@@ -1,0 +1,119 @@
+@import '~antd/dist/antd.css';
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: white !important;
+}
+
+@media (min-width: 970px) {
+  a:hover {
+    color: initial;
+  }
+}
+
+@media (max-width: 970px) {
+  a:hover, a:active {
+
+    text-decoration: none;
+  }
+}
+
+#root {
+  height: 100%;
+}
+
+h3 {
+  font-size: 12px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+.locationCascader {
+  overflow: scroll;
+  max-height: 300px;
+}
+
+
+.locationCascader::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+.locationCascader::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+.locationCascader::-webkit-scrollbar-thumb:horizontal {
+    display: none
+}
+
+.locationCascader > div {
+  display: flex;
+}
+
+
+.locationCascader .ant-cascader-menu:first-child {
+  max-height: 180px;
+  height: inherit;
+}
+
+.locationCascader .ant-cascader-menu:not(:first-child) {
+  height: initial;
+}
+
+.locationCascader .ant-cascader-menu:nth-child(4){
+  height: 300px;
+}
+
+.locationCascader .ant-cascader-menu-item {
+  display: flex;
+}
+
+
+.all {
+  color: #1890ff; 
+  color: #1890ff;                      
+  color: #52c41a;                       
+  color: #faad14;                         
+  color: #f5222d;                          
+  font-size: 14px;                          
+  color: rgba(0, 0, 0, .85);           
+  color: rgba(0, 0, 0, .65);                
+  color : rgba(0, 0, 0, .45);     
+  color : rgba(0, 0, 0, .25);           
+  border-radius: 4px;                       
+  border-color: #d9d9d9;                  
+  box-shadow-base: 0 2px 8px rgba(0, 0, 0, .15);  
+}
+.mine {
+  color: #000;
+  color: #333;
+  color: darkgray;
+  color: #ccc;
+}
+/*
+@primary-color: #1890ff;                         // primary color for all components
+@link-color: #1890ff;                            // link color
+@success-color: #52c41a;                         // success state color
+@warning-color: #faad14;                         // warning state color
+@error-color: #f5222d;                           // error state color
+@font-size-base: 14px;                           // major text font size
+@heading-color: rgba(0, 0, 0, .85);              // heading text color
+@text-color: rgba(0, 0, 0, .65);                 // major text color
+@text-color-secondary : rgba(0, 0, 0, .45);      // secondary text color
+@disabled-color : rgba(0, 0, 0, .25);            // disable state color
+@border-radius-base: 4px;                        // major border radius
+@border-color-base: #d9d9d9;                     // major border color
+@box-shadow-base: 0 2px 8px rgba(0, 0, 0, .15);  // major shadow for layers   
+*/    
